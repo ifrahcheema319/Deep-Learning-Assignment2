@@ -1,0 +1,8 @@
+# Google Colab (T4) already provides TensorFlow/Keras; these are the versions the notebook was written for / tested against.
+tensorflow>=2.15        # tested with TF 2.19 / Keras 3 (works with tf.keras 2.x as well)
+numpy
+pandas
+scikit-learn
+matplotlib
+python-docx             # builds report.docx
+pydot                   # optional: keras.utils.plot_model (graphviz binary also needed); a matplotlib diagram is always produced
